@@ -10,8 +10,34 @@
     {
       "name": "file upload",
       "request": {
-        "method": "GET",
-        "header": []
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "file",
+              "type": "file",
+              "uuid": "bff723b6-af9a-42bf-be5e-4316043cf858",
+              "src": "/D:/Projekt I/ChatGPT Image Nov 5, 2025, 10_31_10 PM.png"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://api.escuelajs.co/api/v1/files/upload",
+          "protocol": "https",
+          "host": [
+            "api",
+            "escuelajs",
+            "co"
+          ],
+          "path": [
+            "api",
+            "v1",
+            "files",
+            "upload"
+          ]
+        }
       },
       "response": []
     },
@@ -19,7 +45,22 @@
       "name": "get file",
       "request": {
         "method": "GET",
-        "header": []
+        "header": [],
+        "url": {
+          "raw": "https://api.escuelajs.co/api/v1/files/c1010c.png",
+          "protocol": "https",
+          "host": [
+            "api",
+            "escuelajs",
+            "co"
+          ],
+          "path": [
+            "api",
+            "v1",
+            "files",
+            "c1010c.png"
+          ]
+        }
       },
       "response": []
     }
