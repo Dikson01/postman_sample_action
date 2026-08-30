@@ -1,0 +1,27 @@
+{
+  "info": {
+    "_postman_id": "f51de081-d9c7-4258-81ca-1b6441c8fa45",
+    "name": "16.File",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "56602328",
+    "_collection_link": "https://go.postman.co/collection/56602328-f51de081-d9c7-4258-81ca-1b6441c8fa45?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "file upload",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "get file",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    }
+  ]
+}
